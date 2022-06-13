@@ -1,11 +1,28 @@
 {
   "name": "generate-element",
-  "version": "1.0.2",
-  "description": "Helper function to create a html element, add class, text content and attributes in a single line",
-  "main": "index.js",
+  "version": "1.0.3",
+  "description": "Create a new HTML element and specify class, text content and attributes in a single function",
+  "keywords": [
+    "helper",
+    "HTML",
+    "HTML Element",
+    "DOM",
+    "DOM Manipulation"
+  ],
+  "homepage": "https://github.com/danxschz/generate-element",
+  "bugs": {
+    "url": "https://github.com/danxschz/generate-element/issues",
+    "email": "danxschz@gmail.com"
+  },
+  "main": "index",
+  "typings": "index",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Daniel Sanchez - @danxschz",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danxschz/generate-element.git"
+  },
+  "author": "Daniel Sanchez danxschz@gmail.com (@danxschz)",
   "license": "MIT"
 }
