@@ -1,4 +1,4 @@
-const generateElement = (type, elementClass, textContent, attributes) => {
+function generateElement(type, elementClass, textContent, attributes) {
   const element = document.createElement(type);
   if (elementClass) element.setAttribute('class', elementClass);
   if (textContent) element.textContent = textContent;
@@ -8,7 +8,4 @@ const generateElement = (type, elementClass, textContent, attributes) => {
   return element;
 }
 
-
-module.exports = {
-  generateElement
-}
+module.exports = generateElement;
