@@ -1,6 +1,6 @@
 {
   "name": "generate-element",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Create a new HTML element and specify class, text content and attributes in a single function",
   "keywords": [
     "helper",
